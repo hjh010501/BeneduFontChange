@@ -1,0 +1,20 @@
+{
+    "name": "🐝Benedu Font Change",
+    "description" : "🐝Benedu Font is not so good to read some word...",
+    "version": "3.1415",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.benedu.co.kr/*"
+        ],
+        "css": ["style.css"]
+      }
+    ],
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": "logo.png"
+    },
+    "icons": {
+      "128": "logo.png"
+    }
+  }
